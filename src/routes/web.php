@@ -11,6 +11,10 @@
 |
 */
 
-Route::get('/', function () {
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
+
+Route::get('/', 'BooksController@books'); #at localhost/, we go to the controller...
+#...and the controller returns the view 'welcome'
+Route::get('/deleteBook', 'BooksController@deleteBook');
