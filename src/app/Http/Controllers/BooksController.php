@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Book;
 #use DB;
-use Excel;
+
 use Illuminate\Support\Facades\DB;
 #I will need to add code like 'use App\Models\Book;' so that this...
 #...controller can use the model (Book.php) of the books table and the...
@@ -108,15 +108,6 @@ class BooksController extends Controller
     }
 
 
-
-
-
-    public function exportCSVTA(){
-
-        $books = Book::all();
-        return response()->xml($books);
-  
-      }
 
 
 
