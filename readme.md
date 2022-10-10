@@ -5,6 +5,21 @@ This project lists books stored in a SQLite database. Books can be added, edited
 <p align="center">
   <b>Figure 1</b><br>
  </p>
+ 
+![](src/images/Screenshot130.png)
+<p align="center">
+  <b>Figure 2</b><br>
+ </p>
+
+![](src/images/Screenshot131.png)
+<p align="center">
+  <b>Figure 3</b><br>
+ </p>
+ 
+![](src/images/Screenshot132.png)
+<p align="center">
+  <b>Figure 4</b><br>
+ </p>
 
 ## Setup
 1. Clone the repository.
