@@ -1,6 +1,11 @@
 ## Book list app
 This project lists books stored in a SQLite database. Books can be added, edited, searched for, sorted, deleted, and exported.
 
+![](src/images/Screenshot (129).png)
+<p align="center">
+  <b>Figure 1</b><br>
+ </p>
+
 ## Setup
 1. Clone the repository.
 1. Start the containers by running `docker-compose up -d` in the project root.
