@@ -15,7 +15,7 @@
             <div class="new">
                 <span class="label label-default">New Book</span>
             </div>
-            <form method="POST" action="{{ url('/main/newBook')}}">
+            <form method="POST" action="{{ url('/addBook')}}">
                 {{ csrf_field() }}
                 <div class="flex form-group">
                     <label for="usr">Title:</label>
